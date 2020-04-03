@@ -1,0 +1,132 @@
+/**
+ * Custom Css Rules
+ */
+.full-height {
+    height: 100vh;
+    background: url(./resources/images/submarine.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	margin-right: 100px;
+
+	@media only screen and (max-width: 992px) {
+		margin-right: 30px;
+	}
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+
+/**
+ * Basic elements
+ */
+h1 {
+	color: red;
+	font-family: 'Black Ops One', cursive;
+	font-size: 50px;
+
+	@media only screen and (max-width: 992px) {
+		font-size: 30px;
+	}
+}
+
+
+/**
+ * Input Group (pseudo form)
+ */
+.card {
+	background-color: transparent;
+	border: 0px;
+}
+
+.card-header {
+	border-bottom: 0px;
+}
+
+.input-group {
+	input {
+		font-size: 18px;
+		@media only screen and (max-width: 992px) {
+			font-size: 14px;
+		}
+
+	}
+	button {
+		font-size: 18px;
+		color: white;
+		font-weight: bold;
+
+		@media only screen and (max-width: 992px) {
+			font-size: 14px;
+		}
+	}
+
+	button:hover {
+		background-color: red;
+	}
+}
+
+
+/**
+ * Error
+ */
+.alert {
+	font-size: 14px;
+	margin-bottom: 0px;
+	display: inline-block;
+
+	@media only screen and (max-width: 992px) {
+		font-size: 12px;
+	}
+
+
+	p {
+		margin-bottom: 0px;
+	}
+}
+
+
+/**
+ * Table
+ */
+.table {
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+td {
+	min-width: 70px !important;
+}
+
+
+/**
+ * Creator
+ */
+.creator {
+    text-align: left;
+    margin-left: 100px;
+	
+	p {
+		color: white;
+		font-weight: bold;
+	}
+
+    a {
+        font-weight: 900;
+        font-size: 16px;
+        color: red;
+    }
+}
